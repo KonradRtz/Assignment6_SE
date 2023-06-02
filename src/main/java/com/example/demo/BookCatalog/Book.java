@@ -1,4 +1,4 @@
-package com.example.demo.BookInventory;
+package com.example.demo.BookCatalog;
 
 public class Book{
 
