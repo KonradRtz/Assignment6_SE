@@ -12,7 +12,7 @@ public class ControllerTest {
     @Test
     void testOrderController(){
         OrderController testOrderController = new OrderController();
-        testOrderController.orderBook(new Book("001", "Yes", "ME", "1901"), 100);
+        testOrderController.orderBook(new Book("001", "Yes", "ME", "1901"), 100, "now");
         assertEquals(100,testOrderController.getOrders().get(0).getOrderQuantity());
     }
 }
